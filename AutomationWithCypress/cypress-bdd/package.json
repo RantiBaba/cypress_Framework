@@ -1,0 +1,32 @@
+{
+	"name": "cypress-bdd",
+	"version": "1.0.0",
+	"description": "Cypress Cucumber BDD",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:chrome": "cypress open --browser chrome",
+		"cy:electron": "cypress open --browser electron",
+		"cy:firefox": "cypress open --browser firefox",
+		"cy:run": "cypress run",
+		"cy:run-dashboard": "cypress run --record --key e47576a2-d110-4b99-b972-69196c2018ee"
+	},
+	"keywords": [
+		"Cypress",
+		"Cucumber",
+		"Tests"
+	],
+	"author": "ITupskilling",
+	"license": "ISC",
+	"dependencies": {
+		"cypress-cucumber-preprocessor": "^2.3.1",
+		"prettier": "^2.0.5"
+	},
+	"cypress-cucumber-preprocessor": {
+		"nonGlobalStepDefinitions": true
+	},
+	"devDependencies": {
+		"cypress": "^4.12.1",
+		"cypress-xpath": "^1.6.0"
+	}
+}

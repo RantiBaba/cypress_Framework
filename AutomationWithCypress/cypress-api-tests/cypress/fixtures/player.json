@@ -1,0 +1,7 @@
+{
+	"endpoint": "https://api.football-data.org/v2/players",
+	"validAuth": { "X-Auth-Token": "4d277f3e84d04f49be6a3cf075d133c7" },
+	"badAuth": { "X-Auth-Token": "4d2XXf3e84d04f49beATestf075d133c7" },
+	"name": "Christiano Ronaldo",
+	"position": "Attacker"
+}

@@ -1,0 +1,6 @@
+{
+  "email": "test@test.com",
+  "password": "May2020!",
+  "invalidEmail": "22@test.com",
+  "invalidPassword": "sesame"
+}

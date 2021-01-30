@@ -1,0 +1,25 @@
+{
+	"name": "cypress-api-tests",
+	"version": "1.0.0",
+	"description": "cypress api testing",
+	"main": "index.js",
+	"scripts": {
+		"cy:open": "cypress open",
+		"cy:run": "cypress run",
+		"cy:run-dashboard": "cypress run --record --key 7ac145e2-7bc3-48cf-b252-af3a261634bd"
+	},
+	"keywords": [
+		"CYPRESS",
+		"REST",
+		"API",
+		"TESTS"
+	],
+	"author": "ITUpskills",
+	"license": "ISC",
+	"dependencies": {
+		"prettier": "^2.0.5"
+	},
+	"devDependencies": {
+		"cypress": "^4.12.1"
+	}
+}

@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "id": 21,
+      "title": "The Audacity of Hope",
+      "author": "Barack Obama"
+    },
+    {
+      "id": 25,
+      "title": "The Audacity of Hope",
+      "author": "Barack Obama"
+    },
+    {
+      "id": 22,
+      "title": "The Audacity of Hope",
+      "author": "Barack Obama"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
