@@ -20,3 +20,7 @@ import './commands'
 // require('./commands')
 
 require('cypress-xpath')
+
+const dayjs = require('dayjs')
+
+Cypress.dayjs = dayjs

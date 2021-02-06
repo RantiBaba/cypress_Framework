@@ -1,3 +1,8 @@
+
+var dayjs = require('dayjs')
+//import dayjs from 'dayjs' // ES 2015
+dayjs().format()
+
 describe('', () => {
   it('should create a student record', () => {
     cy.visit('/CourseManagementSystem/Student')
@@ -43,7 +48,7 @@ describe('', () => {
     cy.get('@familyName').clear()
     cy.get('@familyName').type(familyName)
 
-    //get family name element and set an alias and enter test name
+    //get first name element and set an alias and enter test name
     cy.get('#FirstName').as('firstName')
     cy.get('#FirstName').clear()
     cy.get('@firstName').type(firstName)
@@ -70,7 +75,7 @@ describe('', () => {
     cy.get('#FirstName').type(newFirstName)
 
     //enrollment date change
-    const todaysDate = Cypress.moment().format('YYYY-MM-DDThh:mm')
+    const todaysDate = dayjs().format('DD MMM, YYYY')
     cy.get('#EnrollmentDate').clear()
     cy.get('#EnrollmentDate').type(todaysDate)
 
@@ -80,3 +85,9 @@ describe('', () => {
     saveButton.click()
   }
 })
+
+
+// const todaysDate = dayjs().format('DD MMM, YYYY')
+
+// console.log(todaysDate);
+
